@@ -1,0 +1,32 @@
+/* Home page top banner */
+.banner-home{
+  background-color: #86B486;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0px;
+  text-transform: uppercase;
+}
+
+/* Home page services' presentation banner */
+.banner-ourservices{
+	background-image: url(../../images/background.jpg);
+	color: black;
+	padding: 80px 0px;
+	background-size: cover;
+	background-position: center;
+}
+/* Home page services presentation banner TITLE */
+.banner-ourservices h1{
+	font-size: 40px;
+  text-transform: uppercase;
+}
+
+}
+/* Home page services presentation banner SUBTITLE*/
+.banner-ourservices h2{
+	font-size: 30px;
+	margin-bottom:40px;
+}
+

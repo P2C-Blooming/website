@@ -1,0 +1,29 @@
+/* Clickable Yellow Button */
+.btn-yellow{
+	background-color: #D6894B;
+	padding: 15px 20px;
+	border-radius: 4px;
+	color: white;
+	font-weight: bold;
+	font-family: 'Sarala', sans-serif;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.btn-yellow:hover{
+  background-color:#86B486;
+  color:black;
+}
+
+/* Clickable Yellow Title */
+.btn-choice{
+  background-color:#D6894B;
+  color:black;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.btn-choice:hover{
+  background-color:white;
+  color:black;
+}

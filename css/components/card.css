@@ -1,0 +1,27 @@
+/* Flex position */
+.cards{
+    display: flex;
+}
+
+/* Card Express service */
+.card-white-express{
+  padding: 50px;
+  margin: 20px;
+  justify-content: space-between;
+  position:absolute;
+  left: 300px;
+}
+
+/* Card Extensive service */
+.card-white-extensive{
+  padding: 50px;
+  margin: 20px;
+  justify-content: space-between;
+  position:absolute;
+  right: 300px;
+}
+
+
+
+
+
