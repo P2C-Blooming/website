@@ -1,0 +1,39 @@
+/* Fill the form - Text size */
+
+form .data label{
+  font-size: 18px;
+}
+
+/* Fill the form - Data input */
+form .data input{
+  height:100%;
+  width: 100%;
+  padding-left: 10px;
+  font-size: 15px;
+  color: #619661;
+  text-transform: uppercase;
+}
+
+/* Fill the form - Continue button box */
+form .btn{
+  margin:auto;
+  height: 40px;
+  width:120px;
+  padding: 10px;
+  position: relative;
+}
+
+/* Fill the form - Continue button text */
+form .btn button{
+  background: #D6894B;
+  border-radius: 4px;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: 'Sarala', sans-serif;
+  letter-spacing:0.5px;
+}
+
+/* Fill the form - Compulsory text */
+form p{
+  text-align: right;
+}
