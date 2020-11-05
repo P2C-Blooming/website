@@ -1,0 +1,5 @@
+.wall{
+	display: flex;
+    width: 1440px;
+    background: #86B486;
+    flex-direction: column;}
