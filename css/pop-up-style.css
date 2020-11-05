@@ -91,3 +91,12 @@ form p{
   text-align: right;
 }
 
+.fa-times{
+  position: absolute;
+  right:20px;
+  top: 20px;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+
