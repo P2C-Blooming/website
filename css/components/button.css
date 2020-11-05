@@ -1,4 +1,4 @@
-/* Clickable Yellow Button */
+/* Home Page - Clickable Yellow Button */
 .btn-yellow{
 	background-color: #D6894B;
 	padding: 15px 20px;
@@ -15,7 +15,7 @@
   color:black;
 }
 
-/* Clickable Yellow Title */
+/* Home Page - Clickable Yellow Title */
 .btn-choice{
   background-color:#D6894B;
   color:black;
@@ -26,4 +26,14 @@
 .btn-choice:hover{
   background-color:white;
   color:black;
+}
+
+/* Fill the form - Cross icon */
+
+.fa-times{
+  position: absolute;
+  right:20px;
+  top: 20px;
+  font-size: 30px;
+  cursor: pointer;
 }
