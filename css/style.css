@@ -7,14 +7,17 @@
 @import url("components/banner.css");
 @import url("components/logo.css");
 @import url("components/card.css");
-
+@import url("components/form.css");
+@import url("components/box.css");
 
 
 body {
-	font-family: 'Sarala', sans-serif;
-  font-weight: bold;
-	font-size: 15px;
-	margin: 0px;
+  font-family: 'Sarala', sans-serif;
+  font-size: 15px;
+  margin: 0px;
+  padding: 0px;
+  height: 140vh;
+  width: 100%;
 }
 
 h1, h2 {
@@ -26,10 +29,17 @@ a{
 	text-decoration: none;
 }
 
-
+/* Home Page - Services title */
 h3{
   color:#D6894B;
   text-transform: uppercase;
   font-size: 20px;
   text-align: center;
+}
+
+/* Fill the form - Extensive bouquet title */
+h5 {
+  font-size: 40px;
+  text-align: center;
+  text-transform: uppercase;
 }
