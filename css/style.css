@@ -9,6 +9,8 @@
 @import url("components/card.css");
 @import url("components/form.css");
 @import url("components/box.css");
+@import url("components/cardd.css");
+@import url("components/wall.css");
 
 
 body {
@@ -36,6 +38,15 @@ h3{
   font-size: 20px;
   text-align: center;
 }
+/* Your Cart - tittle */
+h4{
+  font-family: Sarala;
+font-style: normal;
+font-weight: bold;
+font-size: 48px;
+line-height: 78px;
+margin: 60px
+}
 
 /* Fill the form - Extensive bouquet title */
 h5 {
@@ -43,3 +54,19 @@ h5 {
   text-align: center;
   text-transform: uppercase;
 }
+
+/* Your cart - Name bouquet */
+h6{
+  font-family: Sarala;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 39px;
+}
+
+p{font-family: Sarala;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 33px;
+text-align: center;}
