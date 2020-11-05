@@ -1,4 +1,4 @@
-/* Home page top banner */
+/* Home page - Top banner */
 .banner-home{
   background-color: #86B486;
   color: white;
@@ -9,7 +9,7 @@
   text-transform: uppercase;
 }
 
-/* Home page services' presentation banner */
+/* Home page - Our services' presentation banner */
 .banner-ourservices{
 	background-image: url(../../images/background.jpg);
 	color: black;
@@ -17,16 +17,15 @@
 	background-size: cover;
 	background-position: center;
 }
-/* Home page services presentation banner TITLE */
+/* Home page - Our services' presentation banner TITLE */
 .banner-ourservices h1{
 	font-size: 40px;
   text-transform: uppercase;
 }
 
 }
-/* Home page services presentation banner SUBTITLE*/
+/* Home page - Our services'presentation banner SUBTITLE*/
 .banner-ourservices h2{
 	font-size: 30px;
 	margin-bottom:40px;
 }
-
