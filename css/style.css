@@ -9,7 +9,7 @@
 @import url("components/card.css");
 @import url("components/form.css");
 @import url("components/box.css");
-@import url("components/cardd.css");
+@import url("components/text.css");
 @import url("components/wall.css");
 
 
@@ -22,40 +22,56 @@ body {
   width: 100%;
 }
 
-h1, h2 {
+
+/* H1 - MAIN HEADER */
+h1 {
   text-align: center;
-  margin-bottom: 10px
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 78px
 }
 
-a{
-	text-decoration: none;
+
+
+/* H2 - TITLE */
+h2 {
+  text-align: center;
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 59px;
 }
 
 
-
-/* Your Cart - tittle */
-h4{
-  font-family: Sarala;
-font-style: normal;
-font-weight: bold;
-font-size: 48px;
-line-height: 78px;
-margin: 60px
-}
-
-/* Your cart - Name bouquet */
-h6{
-  font-family: Sarala;
-font-style: normal;
-font-weight: bold;
+/* H3 - SUBTITLE */
+h3 {
+text-align: center;
 font-size: 24px;
 line-height: 39px;
 }
 
-p{font-family: Sarala;
+
+/* p - paragraph */
+
+p{
 font-style: normal;
 font-weight: normal;
 font-size: 20px;
 line-height: 33px;
-text-align: center;}
+text-align: center;
+}
+
+
+/* a - LINK */
+
+a{
+  text-decoration: none;
+font-weight: bold;
+font-size: 18px;
+line-height: 29px;
+display: flex;
+align-items: center;
+text-align: center;
+}
 
