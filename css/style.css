@@ -31,13 +31,8 @@ a{
 	text-decoration: none;
 }
 
-/* Home Page - Services title */
-h3{
-  color:#D6894B;
-  text-transform: uppercase;
-  font-size: 20px;
-  text-align: center;
-}
+
+
 /* Your Cart - tittle */
 h4{
   font-family: Sarala;
@@ -46,13 +41,6 @@ font-weight: bold;
 font-size: 48px;
 line-height: 78px;
 margin: 60px
-}
-
-/* Fill the form - Extensive bouquet title */
-h5 {
-  font-size: 40px;
-  text-align: center;
-  text-transform: uppercase;
 }
 
 /* Your cart - Name bouquet */
@@ -70,3 +58,4 @@ font-weight: normal;
 font-size: 20px;
 line-height: 33px;
 text-align: center;}
+
