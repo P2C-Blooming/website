@@ -37,3 +37,16 @@
   font-size: 30px;
   cursor: pointer;
 }
+
+
+/* Clickable BACK button */
+
+.btn-back{
+  background-color:white;
+  color:black;
+  font-size: 18px;
+  margin-left: 197px;
+  margin-top: 31px;
+  text-align: left;
+  font-size: 18px;
+}
