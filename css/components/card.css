@@ -21,6 +21,13 @@
   right: 300px;
 }
 
+/* Card services title size */
+.card-white-express h2,.card-white-extensive h2{
+  color:#D6894B;
+  text-transform: uppercase;
+  text-align: center;
+}
+
 
 
 
