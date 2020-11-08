@@ -1,34 +1,138 @@
-/* Home page - Services cards */
-.cards{
+/* HOME PAGE */
+
+
+  /* Home page - Services cards */
+  .cards{
+     display: flex;
+  }
+
+  /* Card Express service */
+  .card-white-express{
+    padding: 50px;
+    margin: 20px;
+    justify-content: space-between;
+    position:absolute;
+    left: 300px;
+  }
+
+  /* Card Extensive service */
+  .card-white-extensive{
+    padding: 50px;
+    margin: 20px;
+    justify-content: space-between;
+    position:absolute;
+    right: 300px;
+  }
+
+  /* Card services title size */
+  .card-white-express h2,.card-white-extensive h2{
+    color:#D6894B;
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+
+
+/* EXTENSIVE SERVICE PAGE */
+
+
+  /* Extensive services' card TITLE */
+  .card-extensiveservices{
+    background-image: url(../../images/background.jpg);
+    padding: 80px 0px;
+    size: 740px, 235px;
+    margin-left:350px;
+    margin-right: 350px;
+    margin-top: 78px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 4px;
+  }
+
+
+  /* Extensive services presentation card TITLE */
+  .card-extensiveservices h1{
+    font-size: 40px;
+    text-transform: uppercase;
+  }
+
+
+  /* Extensive services' card SUBTITLE */
+  .card-createyourown{
+    background-image: url(../../images/background.jpg);
+    margin-top: 18px;
+    margin-left: 457px;
+    margin-right: 457px;
+    background-size: cover;
+    background-position: bottom;
+    border-radius: 4px;
+    height:126px;
+    width:527px;
+  }
+
+
+  /* Extensive services presentation card SUBTITLE */
+  .card-createyourown h2 {
+      font-size: 36px;
+      text-transform: uppercase;
+      padding: 29px;
+  }
+
+
+  /* Cards Romantic Bouquet */
+  .card-white-romantic1,.card-white-romantic2,.card-white-romantic3{
+    padding-top: 3px;
+    padding-left: 63px;
+    padding-right: 63px;
+    padding-bottom: 63px;
+    width:331px;
+    height: 337px;
+    margin-bottom: 98px;
+  }
+
+
+  /* Card Romantic Bouquet 1 */
+  .card-white-romantic1{
+    position:absolute;
+    left: 60px;
+  }
+
+
+  /* Card Romantic Bouquet 2 */
+  .card-white-romantic2{
+    position:center;
+  }
+
+  /* Card Romantic Bouquet 3 */
+  .card-white-romantic3{
+    position:absolute;
+    right:60px;
+  }
+
+
+
+
+/* YOUR CART PAGE */
+
+
+  .cardd{
     display: flex;
-}
+      align-items: center;
+      justify-content: space-between;
+      box-shadow: 0px 10px 30px rgba(0,0,0,0.2);
+      border-radius: 6px;
+          width: 900px;
+          margin: 80px;
+        margin-top: 0px 5px;
+          background: white;}
 
-/* Card Express service */
-.card-white-express{
-  padding: 50px;
-  margin: 20px;
-  justify-content: space-between;
-  position:absolute;
-  left: 300px;
-}
+  .cardd img {
+    width: 125px;
+      margin: 20px;
+      height: 110px;}
 
-/* Card Extensive service */
-.card-white-extensive{
-  padding: 50px;
-  margin: 20px;
-  justify-content: space-between;
-  position:absolute;
-  right: 300px;
-}
-
-/* Card services title size */
-.card-white-express h2,.card-white-extensive h2{
-  color:#D6894B;
-  text-transform: uppercase;
-  text-align: center;
-}
-
-
-
+  .cardd p {
+    margin-right: 110px;
+  }
 
 
