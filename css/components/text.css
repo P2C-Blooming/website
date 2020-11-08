@@ -1,0 +1,22 @@
+
+/* Text Extensive Services "They did it before you" */
+
+#theydidit{
+  font-size: 24px;
+  font-weight: normal;
+  text-align: center;
+  margin-top: 170px;
+}
+
+/* Text Extensive Services "Information" */
+
+#information{
+  font-size: 18px;
+  font-weight: lighter;
+  text-align: center;
+  width:900px;
+  position: absolute;
+  left: 300px;
+  right: 300px;
+}
+}
