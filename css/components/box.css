@@ -11,10 +11,11 @@
 }
 
 /* Title of the form */
-.box .text{
+.box h1{
   font-size: 35px;
   font-weight: 600px;
   text-align: center;
+  text-transform: uppercase;
 }
 
 /* Data input in the containers*/
