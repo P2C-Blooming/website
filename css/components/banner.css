@@ -19,13 +19,5 @@
 }
 /* Home page - Our services' presentation banner TITLE */
 .banner-ourservices h1{
-	font-size: 40px;
   text-transform: uppercase;
-}
-
-}
-/* Home page - Our services'presentation banner SUBTITLE*/
-.banner-ourservices h2{
-	font-size: 30px;
-	margin-bottom:40px;
 }
