@@ -2,35 +2,26 @@
 
 
   /* Home page - Services cards */
-  .cards{
-     display: flex;
-  }
+    .cards{
+       display: flex;
+    }
 
-  /* Card Express service */
-  .card-white-express{
+  /* Service cards */
+  .card-express,.card-extensive {
     padding: 50px;
     margin: 20px;
-    justify-content: space-between;
-    position:absolute;
-    left: 300px;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
   }
 
-  /* Card Extensive service */
-  .card-white-extensive{
-    padding: 50px;
-    margin: 20px;
-    justify-content: space-between;
-    position:absolute;
+  .card-express{
+    left:300px;
+  }
+
+  .card-extensive{
     right: 300px;
   }
-
-  /* Card services title size */
-  .card-white-express h2,.card-white-extensive h2{
-    color:#D6894B;
-    text-transform: uppercase;
-    text-align: center;
-  }
-
 
 
 /* EXTENSIVE SERVICE PAGE */
