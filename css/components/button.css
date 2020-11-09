@@ -1,4 +1,16 @@
-/* Home Page - Clickable Yellow Button */
+/* Home Page - Home Button */
+.btn-home{
+  background-color: #86B486;
+  padding: 15px 20px;
+  border-radius: 4px;
+  color: white;
+  font-weight: bold;
+  font-family: 'Sarala', sans-serif;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+/* Home Page - Your cart Button */
 .btn-yellow{
 	background-color: #D6894B;
 	padding: 15px 20px;
@@ -15,26 +27,11 @@
   color:black;
 }
 
-/* Home Page - Clickable Yellow Title */
-.btn-choice{
-  background-color:#D6894B;
-  color:black;
-  padding: 10px 20px;
-  cursor: pointer;
-}
-
-.btn-choice:hover{
-  background-color:white;
-  color:black;
-}
-
-/* Fill the form - Cross icon */
-
-.fa-times{
-  position: absolute;
-  right:20px;
-  top: 20px;
-  font-size: 30px;
+/* Home Page - Services buttons */
+.btn-express, .btn-extensive{
+  color:#D6894B;
+  text-transform: uppercase;
+  padding-left: 55px;
   cursor: pointer;
 }
 
