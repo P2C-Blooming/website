@@ -1,5 +1,6 @@
 /* Fill the form - Box */
 .box{
+  display: none;
   position: absolute;
   top: 75%;
   left:50%;
@@ -10,21 +11,29 @@
   box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.4);
 }
 
-/* Title of the form */
+/* Fill the form - Pop up */
+#click:checked ~ .box{
+  display:block;
+  }
+
+.click input {
+  display: none;
+}
+
+/* Fill the form - Title */
 .box h1{
   font-weight: 600px;
   text-align: center;
   text-transform: uppercase;
 }
 
-/* Data input in the containers*/
+/* Fill the form - Data input in the containers*/
 .box form .data{
   height:40px;
   width:100%;
   margin: 40px 0;
 }
 /* Fill the form - Cross icon */
-
 .box .fas {
   position: absolute;
   right:20px;
@@ -32,3 +41,23 @@
   font-size: 30px;
   cursor: pointer;
 }
+
+.box .fas:hover{
+  color:white;
+  transition: .5s;
+}
+
+
+/* Extensive page - Create your own box */
+.box-create-your-own{
+  position: absolute;
+  top: 75%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  background: url(../../images/background.jpg);
+  background-size: cover;
+  background-position: bottom;
+  border-radius: 6px;
+}
+
+
