@@ -21,3 +21,9 @@
 .banner-ourservices h1{
   text-transform: uppercase;
 }
+
+/* Home page - Our services'presentation banner SUBTITLE*/
+.banner-ourservices h2{
+	font-size: 30px;
+	margin-bottom:40px;
+}
