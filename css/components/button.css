@@ -5,7 +5,6 @@
   border-radius: 4px;
   color: white;
   font-weight: bold;
-  font-family: 'Sarala', sans-serif;
   text-transform: uppercase;
   cursor: pointer;
 }
@@ -17,7 +16,6 @@
 	border-radius: 4px;
 	color: white;
 	font-weight: bold;
-	font-family: 'Sarala', sans-serif;
   text-transform: uppercase;
   cursor: pointer;
 }
@@ -35,7 +33,6 @@
   cursor: pointer;
 }
 
-
 /* Clickable BACK button */
 
 .btn-back{
@@ -47,3 +44,24 @@
   text-align: left;
   font-size: 18px;
 }
+
+/* Extensive page - Create your own button */
+.btn-create-your-own{
+  display: block;
+  width: 527px;
+  height: 126px;
+  font-size: 36px;
+  color:black;
+  text-transform: uppercase;
+  text-align: center;
+  cursor: pointer;
+  line-height: 120px;
+  font-weight: bold;
+}
+
+.btn-create-your-own:hover{
+  color:white;
+  background-color:#D6894B;
+  border-radius: 6px;
+}
+
