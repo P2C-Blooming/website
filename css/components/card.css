@@ -90,7 +90,7 @@
 
   /* Card Romantic Bouquet 2 */
   .card-white-romantic2{
-    position:center;
+    padding-left: 80px;
   }
 
   /* Card Romantic Bouquet 3 */
@@ -98,7 +98,6 @@
     position:absolute;
     right:60px;
   }
-
 
 
 
