@@ -1,14 +1,16 @@
 
-/* Text Extensive Services "They did it before you" */
+
+/* Extensive Services - "They did it before you" */
 
 #theydidit{
   font-size: 24px;
   font-weight: normal;
   text-align: center;
-  margin-top: 170px;
+  margin-top: 155px;
+  text-transform: uppercase;
 }
 
-/* Text Extensive Services "Information" */
+/* Extensive Services - "Information" */
 
 #information{
   font-size: 18px;
@@ -18,6 +20,15 @@
   position: absolute;
   left: 300px;
   right: 300px;
+}
+
+
+/* Extensive Service - Create your flower compositions with our designers */
+
+#description-composition{
+line-height: 39px;
+margin-top: 155px;
+font-weight: 300px;
 }
 
 /* Home page - Our services'presentation banner SUBTITLE*/
