@@ -38,3 +38,33 @@ font-weight: 300px;
   margin-bottom: 50px;
   margin-top: 10px;
 }
+
+
+/* Express Services - Or pick one of the options below: */
+
+#pick-options{
+  font-size: 24px;
+  font-weight: lighter;
+  text-align: center;
+  margin-top: 155px;
+}
+
+
+/* Express Services - Price*/
+.price-text{
+  font-size: 18px;
+  font-weight: lighter;
+  color: black;  
+}
+
+
+/* Home page - Our services'presentation banner SUBTITLE*/
+#homepage-subtitle h2 {
+  font-weight: lighter;
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 10px;
+}
+
+
+
