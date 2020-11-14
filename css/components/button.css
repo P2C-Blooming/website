@@ -46,6 +46,7 @@
 }
 
 /* Extensive page - Create your own button */
+
 .btn-create-your-own{
   display: block;
   width: 527px;
@@ -64,4 +65,27 @@
   background-color:#D6894B;
   border-radius: 6px;
 }
+
+/* Express page - Create your own button */
+
+.btn-personnalisation{
+display: block;
+width: 527px;
+height: 126px;
+font-size: 36px;
+color: black;
+text-transform: uppercase; 
+text-align: center;
+cursor: pointer;
+line-height: 120px;
+font-weight: bold;
+}
+
+.btn-personnalisation:hover{
+color: white;
+background-color: #D6894B
+border-radius:6px;
+cursor: pointer;
+}
+
 
