@@ -88,6 +88,7 @@ border-radius:6px;
 cursor: pointer;
 }
 
+/* Button Cartpage */
 .button-cartpage {
 
   
@@ -105,3 +106,41 @@ img{ width: 125px; }
     width: 400px;
     text-align: center;
 	cursor: pointer;}
+
+
+
+/* About-us Profile link */
+.btn-celine {
+    margin-left: 80px;
+    margin-right: 100px;
+    background-color: #D6894B;
+    padding: 15px 20px;
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.btn-lisa {
+   margin-left: 60px;
+    margin-right: 100px;
+    background-color: #D6894B;
+    padding: 15px 20px;
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;}
+
+.btn-hugo {
+    margin-left: 70px;
+    margin-right: 100px;
+    background-color: #D6894B;
+    padding: 15px 20px;
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+
