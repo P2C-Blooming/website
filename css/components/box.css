@@ -50,3 +50,14 @@
   background-position: bottom;
   border-radius: 6px;
 }
+
+/* Your-Cart - Button Checkout */
+.box-button-cartpage {
+       position: absolute;
+    right: 1.5%;
+    background: url(../../images/tulip.jpg);
+    background-size: cover;
+    font-size: 40px;
+    border-radius: 6px;
+    margin-top: 855px;
+    font-weight: bold;}
