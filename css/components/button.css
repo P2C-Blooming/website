@@ -88,4 +88,20 @@ border-radius:6px;
 cursor: pointer;
 }
 
+.button-cartpage {
 
+  
+          margin: 80px;
+
+        }
+
+
+.button-cartpage 
+img{ width: 125px; }
+
+.btn-cartpage {
+
+  display: block;
+    width: 400px;
+    text-align: center;
+	cursor: pointer;}
