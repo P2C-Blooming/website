@@ -67,5 +67,16 @@ padding-top: 34px;
   margin-top: 10px;
 }
 
+/*Your Cart page - YOUR CART */
+ #title-yourcart h1 {
+     text-align: left;
+    margin-left: 30px;
+}
+
+/* Your Cart page - Back */
+#back-yourcart  h5 {
+  margin-left: 30px;
+}
+
 
 
