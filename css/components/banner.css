@@ -27,3 +27,25 @@
 	font-size: 30px;
 	margin-bottom:40px;
 }
+
+
+/* About us - About us banner*/
+/* About us - About us' presentation banner */
+.banner-aboutus{
+  background-image: url(../../images/tournesol.png);
+  color: black;
+  padding: 80px 0px;
+  background-size: cover;
+  background-position: center;
+}
+/* About us - About us' presentation banner TITLE */
+.banner-aboutus h1{
+  text-transform: uppercase;
+  color: white;
+}
+
+/* About us - About us'presentation banner SUBTITLE*/
+.banner-aboutus h2{
+  font-size: 30px;
+  margin-bottom:40px;
+  color:white;}
