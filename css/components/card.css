@@ -216,7 +216,7 @@
 /* YOUR CART PAGE */
 
 
-  .cardd{
+  .card-cartpage{
     display: flex;
       align-items: center;
       justify-content: space-between;
@@ -227,13 +227,24 @@
         margin-top: 0px 5px;
           background: white;}
 
-  .cardd img {
+  .card-cartpage h6 {
+  font-size: 19px;
+  margin-right: 20px;
+  }
+
+  .card-cartpage img {
     width: 125px;
       margin: 20px;
       height: 110px;}
 
-  .cardd p {
+  .card-cartpage p {
     margin-right: 110px;
   }
 
+ #title-yourcart h1 {
+     text-align: left;
+    margin-left: 30px;
+}
+
+.x-cartpage h6{}
 
