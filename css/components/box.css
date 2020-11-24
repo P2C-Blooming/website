@@ -25,6 +25,14 @@
   margin: 40px 0;
 }
 
+.fa, .fas {
+  right: 30px;
+  top: 25px;
+}
+
+#click: checked~ .box{
+  display: block;
+}
 
 /* Extensive page - Create your own box */
 .box-create-your-own{
@@ -53,11 +61,14 @@
 
 /* Your-Cart - Button Checkout */
 .box-button-cartpage {
-       position: absolute;
+    display: block;
+    position: absolute;
     right: 1.5%;
     background: url(../../images/tulip.jpg);
     background-size: cover;
-    font-size: 40px;
+    font-size: 30px;
     border-radius: 6px;
-    margin-top: 855px;
-    font-weight: bold;}
+    margin-top: 770px;
+    font-weight: bold;
+    transform: translate(-10%, 50%);
+  }
