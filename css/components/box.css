@@ -62,14 +62,12 @@
 
 /* Your-Cart - Button Checkout */
 .box-button-cartpage {
-  display: block;
-  position: absolute;
-  right: 1.5%;
-  background: url(../../images/tulip.jpg);
-  background-size: cover;
-  font-size: 30px;
-  border-radius: 6px;
-  margin-top: 770px;
-  font-weight: bold;
-  transform: translate(-10%, 50%);
+    position: absolute;
+    right: 0.5%;
+    background: url(../../images/tulip.jpg);
+    background-size: cover;
+    border-radius: 4px;
+    margin-top: 985px;
+    top: 40%;
+    transform: translate(-35%, -50%);
 }
