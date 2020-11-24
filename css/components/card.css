@@ -2,8 +2,8 @@
 
 
   /* Home page - Services cards */
-    .cards{
-       display: flex;
+  .cards{
+    display: flex;
     }
 
   /* Service cards */
@@ -110,13 +110,14 @@
   .card-expressservices{
     background-image: url(../../images/background.jpg);
     padding: 80px 0px;
-    size: 740px, 235px;
     margin-left:350px;
     margin-right: 350px;
     margin-top: 78px;
     background-size: cover;
     background-position: center;
     border-radius: 4px;
+
+
   }
 
 
@@ -222,13 +223,12 @@
       justify-content: space-between;
       box-shadow: 0px 10px 30px rgba(0,0,0,0.2);
       border-radius: 6px;
-          width: 900px;
-          margin: 80px;
-        margin-top: 0px 5px;
-          background: white;}
+      margin: 50px;
+      background: white;
+    }
 
   .card-cartpage h6 {
-  font-size: 19px;
+  font-size: 30px;
   margin-right: 20px;
   }
 
