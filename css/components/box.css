@@ -28,6 +28,7 @@
 .fa, .fas {
   right: 30px;
   top: 25px;
+  position: absolute;
 }
 
 #click: checked~ .box{
