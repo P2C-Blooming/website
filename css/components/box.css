@@ -1,188 +1,74 @@
-/* Home Page - Home Button */
-.btn-home{
-  background-color: #86B486;
-  padding: 15px 20px;
-  border-radius: 4px;
-  color: white;
-  font-weight: bold;
-  text-transform: uppercase;
-  cursor: pointer;
-}
-
-/* Home Page - Your cart Button */
-.btn-yellow{
-	background-color: #D6894B;
-	padding: 15px 20px;
-	border-radius: 4px;
-	color: white;
-	font-weight: bold;
-  text-transform: uppercase;
-  cursor: pointer;
-}
-
-.btn-yellow:hover{
-  background-color:#86B486;
-  color:black;
-}
-
-/* Home Page - Services buttons */
-.btn-express, .btn-extensive{
-  color:#D6894B;
-  text-transform: uppercase;
-  padding-left: 55px;
-  cursor: pointer;
-}
-
-/* Home page - About us button*/
-
-.btn-about-us{
+/* Fill the form - Box */
+.box{
   position: absolute;
-  top: 130%;
+  top: 75%;
   left:50%;
   transform: translate(-50%, -50%);
-  background-color: #D6894B;
-  display: block;
-  padding: 10px 20px;
-  border-radius: 4px;
+  background:#86B486;
+  padding: 60px;
+  height: auto;
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.4);
+}
+
+/* Title of the form */
+.box h1{
+  font-size: 35px;
+  font-weight: 600px;
   text-align: center;
-  color: black;
-  font-weight: bold;
   text-transform: uppercase;
-  cursor: pointer
 }
 
-.btn-about-us:hover{
-background-color:#86B486;
-color:white;
+/* Data input in the containers*/
+.box form .data{
+  height:40px;
+  width:100%;
+  margin: 40px 0;
 }
 
-/* Fill the form - Continue button*/
-.btn-black{
+.fa, .fas {
+  right: 30px;
+  top: 25px;
+}
+
+#click: checked~ .box{
+  display: block;
+}
+
+/* Extensive page - Create your own box */
+.box-create-your-own{
   position: absolute;
-  top: 95%;
+  top: 75%;
   left:50%;
   transform: translate(-50%, -50%);
-  background-color: #D6894B;
-  display: block;
-  padding: 10px 20px;
-  border-radius: 4px;
-  text-align: center;
-  color: black;
-  font-weight: bold;
-  cursor: pointer;
-}
-
-.btn-black:hover{
-  background-color:#86B486;
-  color:white;
-}
-
-
-/* Clickable BACK button */
-
-.btn-back{
-  background-color:white;
-  color:black;
-  font-size: 18px;
-  margin-left: 23px;
-  margin-top: 30px;
-  margin-bottom: 30px;
-  font-size: 18px;
-
-}
-
-/* Extensive page - Create your own button */
-
-.btn-create-your-own{
-  display: block;
-  width: 527px;
-  height: 126px;
-  font-size: 36px;
-  color:black;
-  text-transform: uppercase;
-  text-align: center;
-  cursor: pointer;
-  line-height: 120px;
-  font-weight: bold;
-}
-
-.btn-create-your-own:hover{
-  color:white;
-  background-color:#D6894B;
+  background: url(../../images/background.jpg);
+  background-size: cover;
+  background-position: bottom;
   border-radius: 6px;
 }
 
-/* Express page - Create your own button */
 
-.btn-personnalisation{
-display: block;
-width: 527px;
-height: 126px;
-font-size: 36px;
-color: black;
-text-transform: uppercase;
-text-align: center;
-cursor: pointer;
-line-height: 120px;
-font-weight: bold;
+/* Express page - Personnalisation */
+.box-personnalisation{
+  position: absolute;
+  top: 75%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  background: url(../../images/background.jpg);
+  background-size: cover;
+  background-position: bottom;
+  border-radius: 6px;
 }
 
-.btn-personnalisation:hover{
-color: white;
-background-color: #D6894B
-border-radius:6px;
-cursor: pointer;
-}
-
-/* Button Cartpage */
-.button-cartpage {
-   margin: 80px;
-}
-
-
-.button-cartpage
-img{ width: 125px; }
-
-.btn-cartpage {
-
+/* Your-Cart - Button Checkout */
+.box-button-cartpage {
   display: block;
-  width: 400px;
-  text-align: center;
-	cursor: pointer;}
-
-
-/* About-us Profile link */
-.btn-celine {
-    margin-left: 80px;
-    margin-right: 100px;
-    background-color: #D6894B;
-    padding: 15px 20px;
-    border-radius: 4px;
-    color: white;
-    font-weight: bold;
-    text-transform: uppercase;
-    cursor: pointer;
+  position: absolute;
+  right: 1.5%;
+  background: url(../../images/tulip.jpg);
+  background-size: cover;
+  font-size: 30px;
+  border-radius: 6px;
+  margin-top: 770px;
+  font-weight: bold;
+  transform: translate(-10%, 50%);
 }
-
-.btn-lisa {
-   margin-left: 60px;
-    margin-right: 100px;
-    background-color: #D6894B;
-    padding: 15px 20px;
-    border-radius: 4px;
-    color: white;
-    font-weight: bold;
-    text-transform: uppercase;
-    cursor: pointer;}
-
-.btn-hugo {
-    margin-left: 70px;
-    margin-right: 100px;
-    background-color: #D6894B;
-    padding: 15px 20px;
-    border-radius: 4px;
-    color: white;
-    font-weight: bold;
-    text-transform: uppercase;
-    cursor: pointer;
-
