@@ -1,274 +1,188 @@
-/* HOME PAGE */
-
-
-  /* Home page - Services cards */
-  .cards{
-    display: flex;
-    }
-
-  /* Service cards */
-  .card-express,.card-extensive {
-    padding: 50px;
-    margin: 20px;
-    position: absolute;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .card-express{
-    left:300px;
-  }
-
-  .card-extensive{
-    right: 300px;
-  }
-
-
-
-/* EXTENSIVE SERVICE PAGE */
-
-
-  /* Extensive services' card TITLE */
-  .card-extensiveservices{
-    background-image: url(../../images/background.jpg);
-    padding: 80px 0px;
-    size: 740px, 235px;
-    margin-left:350px;
-    margin-right: 350px;
-    margin-top: 78px;
-    background-size: cover;
-    background-position: center;
-    border-radius: 4px;
-  }
-
-
-  /* Extensive services presentation card TITLE */
-  .card-extensiveservices h1{
-    font-size: 40px;
-    text-transform: uppercase;
-  }
-
-
-  /* Extensive services' card SUBTITLE */
-  .card-createyourown{
-    background-image: url(../../images/background.jpg);
-    margin-top: 18px;
-    margin-left: 457px;
-    margin-right: 457px;
-    background-size: cover;
-    background-position: bottom;
-    border-radius: 4px;
-    height:126px;
-    width:527px;
-  }
-
-
-  /* Extensive services presentation card SUBTITLE */
-  .card-createyourown h2 {
-      font-size: 36px;
-      text-transform: uppercase;
-      padding: 29px;
-  }
-
-
-  /* Cards Romantic Bouquet */
-  .card-white-romantic1,.card-white-romantic2,.card-white-romantic3{
-    padding-top: 3px;
-    padding-left: 63px;
-    padding-right: 63px;
-    padding-bottom: 63px;
-    width:331px;
-    height: 337px;
-    margin-bottom: 98px;
-    color: rgba(214,137,75,1);
-  }
-
-
-  /* Card Romantic Bouquet 1 */
-  .card-white-romantic1{
-    position:absolute;
-    left: 60px;
-  }
-
-
-  /* Card Romantic Bouquet 2 */
-  .card-white-romantic2{
-    padding-left: 80px;
-  }
-
-  /* Card Romantic Bouquet 3 */
-  .card-white-romantic3{
-    position:absolute;
-    right:60px;
-  }
-
-
-/* EXPRESS SERVICE PAGE */
-
-
- /* Extensive services' card TITLE */
-  .card-expressservices{
-    background-image: url(../../images/background.jpg);
-    padding: 80px 0px;
-    margin-left:350px;
-    margin-right: 350px;
-    margin-top: 78px;
-    background-size: cover;
-    background-position: center;
-    border-radius: 4px;
-
-
-  }
-
-
-  /* Extensive services presentation card TITLE */
-    .card-expressservices h1{
-      font-size: 40px;
-      text-transform: uppercase;
-    }
-
-
-  /* Extensive services' card SUBTITLE */
-    .card-personnalisation{
-      background-image: url(../../images/background.jpg);
-      margin-top: 18px;
-      margin-left: 457px;
-      margin-right: 457px;
-      background-size: cover;
-      background-position: bottom;
-      border-radius: 4px;
-      height:126px;
-      width:527px;
-    }
-
-
-  /* Extensive services presentation card SUBTITLE */
-    .card-personnalisation h2 {
-        font-size: 36px;
-        text-transform: uppercase;
-        padding: 29px;
-    }
-
-
-
-  /* Cards Romantic Wedding and Easter Bouquet */
-    .card-white-romantic1,.card-white-romantic4,.card-white-wedding1,.card-white-wedding2,.card-white-easter1,.card-white-easter2{
-      padding-top: 15px;
-      padding-left: 63px;
-      padding-right: 63px;
-      padding-bottom: 63px;
-      width:331px;
-      height: 337px;
-      margin-bottom: 98px;
-      color: rgba(214,137,75,1);
-       text-align: center;
-       font-weight: lighter;
-      }
-
-
-/* Cards Romantic Wedding and Easter Bouquet Price text*/
-    .card-white-romantic1 h3,.card-white-romantic4 h3,.card-white-wedding1 h3,.card-white-wedding2 h3,.card-white-easter1 h3,.card-white-easter2 h3{
-       margin-bottom: -17px;
-      }
-
-
-
-  /* Card Romantic Bouquet 1 - Top Line*/
-
-    .card-white-romantic1{
-      position:absolute;
-      left: 60px;
-    }
-
-  /* Card Romantic Bouquet 4 - Bottom Line */
-
-    .card-white-romantic4{
-     position:absolute;
-      left: 60px;
-    }
-
-  /* Card Wedding Bouquet 1 - Top Line */
-
-    .card-white-wedding1{
-     padding-left: 80px;
-    }
-
-  /* Card Wedding Bouquet 2 - Bottom Line */
-
-    .card-white-wedding2{
-      padding-left: 80px;
-    }
-
-  /* Card Easter Bouquet 1  - Top Line*/
-
-   .card-white-easter1{
-     position:absolute;
-     right:60px;
-    }
-
-  /* Card Easter Bouquet 2 - Bottom Line */
-
-    .card-white-easter2{
-     position:absolute;
-     right:60px;
-   }
-
-
-/* YOUR CART PAGE */
-
-
-  .card-cartpage{
-    display: flex;
-      align-items: center;
-      justify-content: space-between;
-      box-shadow: 0px 10px 30px rgba(0,0,0,0.2);
-      border-radius: 6px;
-      margin: 50px;
-      background: white;
-    }
-
-  .card-cartpage h6 {
-  font-size: 30px;
-  margin-right: 20px;
-  }
-
-  .card-cartpage img {
-    width: 125px;
-      margin: 20px;
-      height: 110px;}
-
-  .card-cartpage p {
-    margin-right: 110px;
-  }
-
- #title-yourcart h1 {
-     text-align: left;
-    margin-left: 30px;
+/* Home Page - Home Button */
+.btn-home{
+  background-color: #86B486;
+  padding: 15px 20px;
+  border-radius: 4px;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
 }
 
-.x-cartpage h6{}
-
-/* ABOUT US */
-
-.card-celine
-{padding: 80px;
-    margin: 20px;
-    position: absolute;
-    justify-content: center;
-    align-items: center;
-    left: 450px;
+/* Home Page - Your cart Button */
+.btn-yellow{
+	background-color: #D6894B;
+	padding: 15px 20px;
+	border-radius: 4px;
+	color: white;
+	font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
 }
 
-.card-lisa
-{ position: absolute;
-  left: 1000px;
-  margin-top: 100px;
-
+.btn-yellow:hover{
+  background-color:#86B486;
+  color:black;
 }
 
-.card-hugo
-{
+/* Home Page - Services buttons */
+.btn-express, .btn-extensive{
+  color:#D6894B;
+  text-transform: uppercase;
+  padding-left: 55px;
+  cursor: pointer;
+}
+
+/* Home page - About us button*/
+
+.btn-about-us{
   position: absolute;
-  padding: 100px;
+  top: 130%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  background-color: #D6894B;
+  display: block;
+  padding: 10px 20px;
+  border-radius: 4px;
+  text-align: center;
+  color: black;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer
 }
+
+.btn-about-us:hover{
+background-color:#86B486;
+color:white;
+}
+
+/* Fill the form - Continue button*/
+.btn-black{
+  position: absolute;
+  top: 95%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  background-color: #D6894B;
+  display: block;
+  padding: 10px 20px;
+  border-radius: 4px;
+  text-align: center;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn-black:hover{
+  background-color:#86B486;
+  color:white;
+}
+
+
+/* Clickable BACK button */
+
+.btn-back{
+  background-color:white;
+  color:black;
+  font-size: 18px;
+  margin-left: 23px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 18px;
+
+}
+
+/* Extensive page - Create your own button */
+
+.btn-create-your-own{
+  display: block;
+  width: 527px;
+  height: 126px;
+  font-size: 36px;
+  color:black;
+  text-transform: uppercase;
+  text-align: center;
+  cursor: pointer;
+  line-height: 120px;
+  font-weight: bold;
+}
+
+.btn-create-your-own:hover{
+  color:white;
+  background-color:#D6894B;
+  border-radius: 6px;
+}
+
+/* Express page - Create your own button */
+
+.btn-personnalisation{
+  display: block;
+  width: 527px;
+  height: 126px;
+  font-size: 36px;
+  color: black;
+  text-transform: uppercase;
+  text-align: center;
+  cursor: pointer;
+  line-height: 120px;
+  font-weight: bold;
+}
+
+.btn-personnalisation:hover{
+  color: white;
+  background-color: #D6894B
+  border-radius:6px;
+  cursor: pointer;
+}
+
+/* Button Cartpage */
+.button-cartpage {
+   margin: 80px;
+}
+
+.button-cartpage img{
+  width: 125px;
+}
+
+.btn-cartpage {
+display: block;
+width: 400px;
+text-align: center;
+cursor: pointer;
+}
+
+
+/* About-us Profile link */
+.btn-celine {
+  margin-left: 80px;
+  margin-right: 100px;
+  background-color: #D6894B;
+  padding: 15px 20px;
+  border-radius: 4px;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.btn-lisa {
+  margin-left: 60px;
+  margin-right: 100px;
+  background-color: #D6894B;
+  padding: 15px 20px;
+  border-radius: 4px;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;}
+
+.btn-hugo {
+  margin-left: 70px;
+  margin-right: 100px;
+  background-color: #D6894B;
+  padding: 15px 20px;
+  border-radius: 4px;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
 
