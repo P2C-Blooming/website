@@ -11,7 +11,6 @@
 
 }
 
-
 /* EXTENSIVE SERVICE PAGE */
 
 
@@ -206,56 +205,31 @@
 
   .card-cartpage{
     display: flex;
-      align-items: center;
-      justify-content: space-between;
-      box-shadow: 0px 10px 30px rgba(0,0,0,0.2);
-      border-radius: 6px;
-      margin: 50px;
-      background: white;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.2);
+    border-radius: 6px;
+    margin: 50px;
+    background: white;
     }
 
   .card-cartpage h6 {
-  font-size: 30px;
-  margin-right: 20px;
+    font-size: 30px;
+    margin-right: 20px;
   }
 
   .card-cartpage img {
     width: 125px;
-      margin: 20px;
-      height: 110px;}
+    margin: 20px;
+    height: 110px;
+  }
 
   .card-cartpage p {
     margin-right: 110px;
   }
 
- #title-yourcart h1 {
-     text-align: left;
+  #title-yourcart h1 {
+    text-align: left;
     margin-left: 30px;
-}
-
-.x-cartpage h6{}
-
-/* ABOUT US */
-
-.card-celine
-{padding: 80px;
-    margin: 20px;
-    position: absolute;
-    justify-content: center;
-    align-items: center;
-    left: 450px;
-}
-
-.card-lisa
-{ position: absolute;
-  left: 1000px;
-  margin-top: 100px;
-
-}
-
-.card-hugo
-{
-  position: absolute;
-  padding: 100px;
 }
 
