@@ -32,10 +32,9 @@
 /* About us - About us banner*/
 /* About us - About us' presentation banner */
 .banner-aboutus{
-  background-image: url(../../images/tournesol.png);
-  color: black;
-  padding: 80px 0px;
+  background-image:linear-gradient(rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.2) 50%),  url(../../images/tournesol.png);
   background-size: cover;
+  padding: 80px 0px;
   background-position: center;
 }
 /* About us - About us' presentation banner TITLE */
@@ -48,4 +47,5 @@
 .banner-aboutus h2{
   font-size: 30px;
   margin-bottom:40px;
-  color:white;}
+  color:white;
+}
