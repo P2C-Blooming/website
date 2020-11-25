@@ -6,7 +6,7 @@
   font-size: 24px;
   font-weight: normal;
   text-align: center;
-  margin-top: 155px;
+  margin-top: 145px;
   text-transform: uppercase;
 }
 
@@ -27,8 +27,7 @@
 
 #description-composition{
 line-height: 39px;
-margin-top: 155px;
-font-weight: 300px;
+margin-top: 100px;
 padding-top: 34px;
 }
 
@@ -55,7 +54,7 @@ padding-top: 34px;
 .price-text{
   font-size: 18px;
   font-weight: lighter;
-  color: black;  
+  color: black;
 }
 
 
