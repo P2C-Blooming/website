@@ -1,4 +1,4 @@
-/* Home Page - Home Button */
+/* Home Button */
 .btn-home{
   background-color: #86B486;
   padding: 15px 20px;
@@ -9,15 +9,21 @@
   cursor: pointer;
 }
 
+.btn-home:hover{
+  color:black;
+}
+
 /* Home Page - Your cart Button */
 .btn-yellow{
-	background-color: #D6894B;
-	padding: 15px 20px;
-	border-radius: 4px;
-	color: white;
-	font-weight: bold;
+  background-color: #D6894B;
+  padding: 15px 20px;
+  border-radius: 4px;
+  color: white;
+  font-weight: bold;
   text-transform: uppercase;
   cursor: pointer;
+  align-items: center;
+  justify-content: center;
 }
 
 .btn-yellow:hover{
@@ -25,34 +31,39 @@
   color:black;
 }
 
-/* Home Page - Services buttons */
-.btn-express, .btn-extensive{
+
+/* White background Yellow text Button */
+.btn-services{
   color:#D6894B;
   text-transform: uppercase;
-  padding-left: 55px;
   cursor: pointer;
+  align-items: center;
+  justify-content: center;
 }
 
-/* Home page - About us button*/
+.btn-services:hover{
+  background-color:#D6894B;
+  color:white;
+  border-radius: 4px;
+
+}
+
+/* About us button*/
 
 .btn-about-us{
   position: absolute;
   top: 119%;
-  left:49%;
+  left:50%;
   transform: translate(-50%, -50%);
   background-color: #D6894B;
-  display: block;
   padding: 10px 20px;
   border-radius: 4px;
-  text-align: center;
   color: black;
-  font-weight: bold;
   text-transform: uppercase;
   cursor: pointer
 }
 
 .btn-about-us:hover{
-background-color:#86B486;
 color:white;
 }
 
@@ -70,6 +81,8 @@ color:white;
   color: black;
   font-weight: bold;
   cursor: pointer;
+  align-items: center;
+  justify-content: center;
 }
 
 .btn-black:hover{
@@ -145,39 +158,4 @@ color:white;
 }
 
 
-
-/* About-us Profile link */
-.btn-celine {
-  margin-left: 80px;
-  margin-right: 100px;
-  background-color: #D6894B;
-  padding: 15px 20px;
-  border-radius: 4px;
-  color: white;
-  font-weight: bold;
-  text-transform: uppercase;
-  cursor: pointer;
-}
-
-.btn-lisa {
-  margin-left: 60px;
-  margin-right: 100px;
-  background-color: #D6894B;
-  padding: 15px 20px;
-  border-radius: 4px;
-  color: white;
-  font-weight: bold;
-  text-transform: uppercase;
-  cursor: pointer;}
-
-.btn-hugo {
-  margin-left: 70px;
-  margin-right: 100px;
-  background-color: #D6894B;
-  padding: 15px 20px;
-  border-radius: 4px;
-  color: white;
-  font-weight: bold;
-  text-transform: uppercase;
-  cursor: pointer;
 
