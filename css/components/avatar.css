@@ -1,14 +1,48 @@
-/* Home Page - Sphere services */
+/* Home Page - Sphere our services */
 .avatar{
   width: 261px;
   height: 261px;
   border-radius: 50%;
   padding-bottom: 10px;
+ /* Hover effect*/
+
+  overflow: hidden;
+  transition: 0.5s;
+
 }
+
+.avatar:hover{
+  z-index: 1;
+  transform: scale(1.15);
+  background:linear-gradient(250deg, #d6894b, rgba(0,0,0,0.1));
+  transform: perspective(600px) rotateY(180deg);
+}
+
+
+/*.avatarbouquet:before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background:linear-gradient(180deg, #f00, #000);
+}*/
 
 /* Express and Extensive Page - Square services */
 .avatarbouquet{
   width: 261px;
   height: 261px;
   padding-bottom: 10px;
+  overflow: hidden;
+  transition: 0.5s;
+
+}
+
+.avatarbouquet:hover{
+  z-index: 1;
+  transform: scale(1.17);
+  background:linear-gradient(200deg, #f00, rgba(0,0,0,0.1));
+  transform: perspective(600px) rotateY(180deg);
 }
