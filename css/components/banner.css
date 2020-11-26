@@ -1,51 +1,56 @@
-/* Home page - Top banner */
-.banner-home{
-  background-color: #86B486;
-  color: white;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin: 0px;
-  text-transform: uppercase;
-}
+/* Home page*/
+  /* Home page - Top banner */
+  .banner-home{
+    background-color: #86B486;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px;
+    text-transform: uppercase;
+  }
 
-/* Home page - Our services' presentation banner */
-.banner-ourservices{
-	background-image: url(../../images/background.jpg);
-	color: black;
-	padding: 80px 0px;
-	background-size: cover;
-	background-position: center;
-}
-/* Home page - Our services' presentation banner TITLE */
-.banner-ourservices h1{
-  text-transform: uppercase;
-}
+  /* Home page - Our services' presentation banner */
+  .banner-ourservices{
+  	background-image: url(../../images/background.jpg);
+  	color: black;
+  	padding: 80px 0px;
+  	background-size: cover;
+  	background-position: center;
+  }
 
-/* Home page - Our services'presentation banner SUBTITLE*/
-.banner-ourservices h2{
-	font-size: 30px;
-	margin-bottom:40px;
-}
+  /* Home page - Our services' presentation banner TITLE */
+  .banner-ourservices h1{
+    text-transform: uppercase;
+  }
+
+  /* Home page - Our services'presentation banner SUBTITLE*/
+  .banner-ourservices h2{
+    font-weight: lighter;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 10px;
+    font-size: 30px;
+  }
 
 
-/* About us - About us banner*/
-/* About us - About us' presentation banner */
-.banner-aboutus{
-  background-image:linear-gradient(rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.2) 50%),  url(../../images/tournesol.png);
-  background-size: cover;
-  padding: 80px 0px;
-  background-position: center;
-}
-/* About us - About us' presentation banner TITLE */
-.banner-aboutus h1{
-  text-transform: uppercase;
-  color: white;
-}
+/* About us*/
+  /* About us - About us' presentation banner */
+  .banner-aboutus{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.2) 50%),  url(../../images/tournesol.png);
+    background-size: cover;
+    padding: 80px 0px;
+    background-position: center;
+  }
+  /* About us - About us' presentation banner TITLE */
+  .banner-aboutus h1{
+    text-transform: uppercase;
+    color: white;
+  }
 
-/* About us - About us'presentation banner SUBTITLE*/
-.banner-aboutus h2{
-  font-size: 30px;
-  margin-bottom:40px;
-  color:white;
-}
+  /* About us - About us'presentation banner SUBTITLE*/
+  .banner-aboutus h2{
+    font-size: 30px;
+    margin-bottom:40px;
+    color:white;
+  }
