@@ -1,18 +1,14 @@
-/* Home Page - Sphere our services */
+/* Home Page - Sphere services */
 .avatar{
   width: 261px;
   height: 261px;
   border-radius: 50%;
-  padding: 10px;
+  padding-bottom: 10px;
 }
 
-/* Square extensive services */
+/* Express and Extensive Page - Square services */
 .avatarbouquet{
-  width: 331px;
-  height: 337px;
-  padding: 10px;
+  width: 261px;
+  height: 261px;
+  padding-bottom: 10px;
 }
-
-
-
-
