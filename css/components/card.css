@@ -7,8 +7,17 @@
   box-sizing: border-box;
   justify-content: center;
   align-content: center;
-
 }
+
+.cards h3{
+  color: #D6894B;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-size: 18px;
+  text-align: left;
+  line-height: 0px;
+}
+
 
 /* EXTENSIVE SERVICE PAGE */
 
