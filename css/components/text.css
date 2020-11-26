@@ -1,4 +1,19 @@
+/* Home page - Our services'presentation banner SUBTITLE*/
+#homepage-subtitle h2 {
+  font-weight: lighter;
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 10px;
+}
 
+/* Express Services - Or pick one of the options below: */
+
+#pick-options{
+  font-size: 24px;
+  font-weight: lighter;
+  text-align: center;
+  margin-top: 155px;
+}
 
 /* Extensive Services - "They did it before you" */
 
@@ -13,7 +28,6 @@
 /* Extensive Services - "Information" */
 
 #information{
-  font-size: 18px;
   font-weight: lighter;
   text-align: center;
   width:900px;
@@ -37,45 +51,23 @@ margin-top: -100px;
 padding-top: 34px;
 }
 
-/* Home page - Our services'presentation banner SUBTITLE*/
-#homepage-subtitle h2 {
-  font-weight: lighter;
-  text-align: center;
-  margin-bottom: 50px;
-  margin-top: 10px;
+
+/* Extensive Services - "Title" */
+
+#title h3 {
+color: #D6894B;
+text-transform: uppercase;
+cursor: pointer;
+font-size: 18px;
+text-align: left;
+line-height: 0px;
 }
 
-
-/* Express Services - Or pick one of the options below: */
-
-#pick-options{
-  font-size: 24px;
-  font-weight: lighter;
-  text-align: center;
-  margin-top: 155px;
-}
-
-
-/* Express Services - Price*/
-.price-text{
-  font-size: 18px;
-  font-weight: lighter;
-  color: black;
-}
-
-
-/* Home page - Our services'presentation banner SUBTITLE*/
-#homepage-subtitle h2 {
-  font-weight: lighter;
-  text-align: center;
-  margin-bottom: 50px;
-  margin-top: 10px;
-}
 
 /*Your Cart page - YOUR CART */
  #title-yourcart h1 {
-     text-align: left;
-    margin-left: 30px;
+  text-align: left;
+  margin-left: 30px;
 }
 
 /* Your Cart page - Back */
