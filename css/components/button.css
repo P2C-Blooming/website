@@ -51,10 +51,6 @@
 /* About us button*/
 
 .btn-about-us{
-  position: absolute;
-  top: 127%;
-  left:50%;
-  transform: translate(-50%, -50%);
   background-color: #D6894B;
   padding: 10px 20px;
   border-radius: 4px;
